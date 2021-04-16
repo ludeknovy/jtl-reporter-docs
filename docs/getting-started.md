@@ -42,3 +42,5 @@ To log in use the default credentials:
 username: admin
 password: 2Txnf5prDknTFYTVEXjj
 ```
+
+Now refer to the [Integration](/docs/integrations/introduction) section on how to get some data in.

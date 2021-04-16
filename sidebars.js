@@ -7,5 +7,14 @@ module.exports = {
         'getting-started',
       ],
     },
+    {
+      type: 'category',
+      label: 'Integrations',
+      items: [
+        'integrations/introduction',
+        'integrations/manual-data-upload',
+        'integrations/samples-streaming',
+      ],
+    },
   ],
 };
