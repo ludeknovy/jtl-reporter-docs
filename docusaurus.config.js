@@ -68,7 +68,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} JtlReporter. Built with Docusaurus.`,
     },
-    googleAnalytics: {
+    gtag: {
       trackingID: 'G-RXBYHFLSTS',
       anonymizeIP: true, // Should IPs be anonymized?
     },
