@@ -12,8 +12,16 @@ module.exports = {
       label: 'Integrations',
       items: [
         'integrations/introduction',
-        'integrations/manual-data-upload',
         'integrations/samples-streaming',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/administration/api-token',
+        'guides/manual-data-upload',
+
       ],
     },
   ],

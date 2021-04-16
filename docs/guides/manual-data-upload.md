@@ -1,5 +1,5 @@
 ---
-title: CSV manual upload
+title: Uploading CSV for processing
 ---
 
 This is the easiest and fastest way if you want to try out this application.

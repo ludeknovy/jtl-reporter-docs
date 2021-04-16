@@ -3,7 +3,7 @@ title: Continuous data streaming
 ---
 
 ## Prerequisites
-* You have generated API token in administration section.
+* You have generated [API token in administration section](/docs/guides/administration/api-token).
 * Existing project and scenario
 
 ## 1. Get JWT token from the backend service

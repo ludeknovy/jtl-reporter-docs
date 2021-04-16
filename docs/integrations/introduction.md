@@ -37,7 +37,7 @@ Hostname
 The above-mentioned CSV properties are [JMeter output properties](https://jmeter.apache.org/usermanual/listeners.html#csvlogformat). The order of the columns is not important. And if you provide additional columns does not matter either - they will be ignored.
 :::
 
-You can upload the CSV either [manually via UI](/docs/integrations/manual-data-upload) or using API
+You can upload the CSV either [manually via UI](/docs/guides/manual-data-upload) or using API
 
 
 ### 2. Continuous data streaming
