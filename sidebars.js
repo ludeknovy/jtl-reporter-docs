@@ -14,6 +14,7 @@ module.exports = {
         'integrations/introduction',
         'integrations/samples-streaming',
         'integrations/taurus',
+        'integrations/jmeter',
         'integrations/locust',
       ],
     },
