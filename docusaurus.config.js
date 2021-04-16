@@ -77,7 +77,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/ludeknovy/jtl-reporter-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -91,4 +91,11 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-google-analytics'],
+  themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-RXBYHFLSTS',
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+  },
 };
