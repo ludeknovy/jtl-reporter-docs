@@ -11,7 +11,7 @@ const features = [
     title: 'Detailed performance report',
     description: (
       <>
-        JtlReport will provide you with metrics for each label such as requests per seconds (RPS), various percentiles, error rate, network data transferred (mbps) and more.
+        JtlReport will provide you with metrics for each label such as: requests per seconds (RPS), various percentiles, error rate, network data transferred (Mbps), and more.
       </>
     ),
   },
@@ -43,7 +43,7 @@ const features = [
     title: 'Create custom chart',
     description: (
       <>
-        JtlReport provide you with a couple of ready-made charts, but you can create your custom chart with any metrics available on it. This way can explore and find even more correlations.
+        JtlReport provides you with a couple of ready-made charts, but you can create your custom chart with any metrics available on it. This way can explore and find even more correlations.
       </>
     ),
   },

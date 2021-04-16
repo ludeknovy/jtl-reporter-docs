@@ -5,6 +5,7 @@ module.exports = {
       label: 'Introduction',
       items: [
         'introduction/getting-started',
+        'introduction/features',
       ],
     },
     {
