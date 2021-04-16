@@ -44,5 +44,5 @@ You can upload the CSV either [manually via UI](/docs/integrations/manual-data-u
 
 To continuously stream data from your performance test you need to have the `jtl-reporter-listener-service` running. The service is up and running by default when you used the [docker-compose.yml](https://github.com/ludeknovy/jtl-reporter/blob/master/docker-compose.yml) for bringing the project up.
 
-For mode detailed tutorial on how to integrate this way go to [Continuous data streaming](docs/integrations/samples-streaming) page.
+For mode detailed tutorial on how to integrate this way go to [Continuous data streaming](/docs/integrations/samples-streaming) page.
 
