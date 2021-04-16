@@ -55,10 +55,10 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: 'blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/ludeknovy/jtl-reporter',
@@ -72,6 +72,11 @@ module.exports = {
       trackingID: 'G-RXBYHFLSTS',
       anonymizeIP: true, // Should IPs be anonymized?
     },
+    sitemap: {
+      changefreq: 'weekly',
+      priority: 0.5,
+      trailingSlash: false,
+    }
   },
   presets: [
     [
@@ -83,12 +88,12 @@ module.exports = {
           editUrl:
             'https://github.com/ludeknovy/jtl-reporter-docs/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
