@@ -36,7 +36,7 @@ Now open the application in your browser:
 http://IP_ADDRESS:2020
 ```
 
-To log in use the default credentilas:
+To log in use the default credentials:
 
 ```
 username: admin
