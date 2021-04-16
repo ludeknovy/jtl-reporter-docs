@@ -3,7 +3,7 @@ title: Locust.io
 ---
 
 :::note
-Some of the metrics wont be available with Locust.io as it does no provides them, eg: latency, connection time and others.
+Some of the metrics wont be available with Locust.io as it does not provide them, eg: latency, connection time and others.
 :::
 
 You have two options here - [generate CSV file and upload it to the application](/docs/integrations/introduction#1-uploading-csv-file), or use jtl listener service and [upload the results continuously](/docs/integrations/introduction#2-continuous-data-streaming) while running your test.
