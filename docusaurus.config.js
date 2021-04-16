@@ -68,6 +68,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'G-RXBYHFLSTS',
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
@@ -88,11 +92,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: {
-          trackingID: 'G-RXBYHFLSTS',
-          anonymizeIP: true, // Should IPs be anonymized?
-        },
-      },
+      }, 
     ],
   ],
 
