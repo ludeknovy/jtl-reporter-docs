@@ -2,9 +2,9 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'JtlReporter Introduction',
+      label: 'Introduction',
       items: [
-        'getting-started',
+        'introduction/getting-started',
       ],
     },
     {
