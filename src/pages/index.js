@@ -52,6 +52,10 @@ const features = [
     description: (
       <>
         Set up a notification for an external service to be informed on a newly processed performance report.
+
+        <p className={styles.more}>
+          <a href="/docs/introduction/features">And more ...</a>
+        </p>
       </>
     ),
   },
