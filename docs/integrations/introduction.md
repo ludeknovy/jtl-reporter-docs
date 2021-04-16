@@ -1,5 +1,5 @@
 ---
-title: How to get data in ?
+title: How to get data in?
 ---
 
 ## Core concepts
@@ -37,12 +37,12 @@ Hostname
 The above-mentioned CSV properties are [JMeter output properties](https://jmeter.apache.org/usermanual/listeners.html#csvlogformat). The order of the columns is not important. And if you provide additional columns does not matter either - they will be ignored.
 :::
 
-You can upload the CSV either [manually via UI](/docs/guides/manual-data-upload) or using API
+You can upload the CSV either **[manually via UI](/docs/guides/manual-data-upload)** or using API
 
 
 ### 2. Continuous data streaming
 
-To continuously stream data from your performance test you need to have the `jtl-reporter-listener-service` running. The service is up and running by default when you used the [docker-compose.yml](https://github.com/ludeknovy/jtl-reporter/blob/master/docker-compose.yml) for bringing the project up.
+To continuously stream data from your performance test you need to have the `jtl-reporter-listener-service` running. The service is up and running by default if you used the [docker-compose.yml](https://github.com/ludeknovy/jtl-reporter/blob/master/docker-compose.yml) for bringing the project up.
 
-For mode detailed tutorial on how to integrate this way go to [Continuous data streaming](/docs/integrations/samples-streaming) page.
+For mode detailed tutorial on how to integrate this way go to **[Continuous data streaming](/docs/integrations/samples-streaming)** page.
 

@@ -13,6 +13,8 @@ module.exports = {
       items: [
         'integrations/introduction',
         'integrations/samples-streaming',
+        'integrations/taurus',
+        'integrations/locust',
       ],
     },
     {
@@ -21,6 +23,7 @@ module.exports = {
       items: [
         'guides/administration/api-token',
         'guides/manual-data-upload',
+        'guides/large-file',
 
       ],
     },
