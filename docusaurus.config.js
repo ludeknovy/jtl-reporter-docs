@@ -88,14 +88,14 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
+        themeConfig: {
+          googleAnalytics: {
+            trackingID: 'G-RXBYHFLSTS',
+            anonymizeIP: true, // Should IPs be anonymized?
+          },
+        },
+      }, 
     ],
   ],
-  plugins: ['@docusaurus/plugin-google-analytics'],
-  themeConfig: {
-    googleAnalytics: {
-      trackingID: 'G-RXBYHFLSTS',
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
-  },
+
 };
