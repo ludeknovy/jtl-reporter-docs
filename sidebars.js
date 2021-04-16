@@ -24,8 +24,8 @@ module.exports = {
       items: [
         'guides/administration/api-token',
         'guides/manual-data-upload',
+        'guides/api-data-upload',
         'guides/large-file',
-
       ],
     },
   ],

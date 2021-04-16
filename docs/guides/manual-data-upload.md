@@ -1,5 +1,5 @@
 ---
-title: Uploading CSV
+title: Upload CSV via UI
 ---
 
 This is the easiest and fastest way if you want to try out this application.
