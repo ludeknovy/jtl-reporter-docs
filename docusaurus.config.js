@@ -66,7 +66,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} JtlReporter. Built with Docusaurus.`,
     },
     googleAnalytics: {
       trackingID: 'G-RXBYHFLSTS',
