@@ -77,7 +77,7 @@ export default function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Getting more from your performance reports | ${siteConfig.title}`}
       description="Online reporting application to generate performance reports from JMeter(Taurus), Locust and other tools by either uploading JTL file or streaming data from the test run continuously.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
