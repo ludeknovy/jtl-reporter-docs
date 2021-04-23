@@ -23,7 +23,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/ludeknovy/jtl-reporter',
           label: 'GitHub',
@@ -88,12 +88,12 @@ module.exports = {
           editUrl:
             'https://github.com/ludeknovy/jtl-reporter-docs/edit/main/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        // },
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
