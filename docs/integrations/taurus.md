@@ -33,3 +33,8 @@ Do not forget to copy [upload_jtl.py](https://github.com/ludeknovy/jtl-reporter/
 Launch your test and after it finishes it will upload .jtl file(s) into Jtl Reporter automatically.
 
 Please note that "demoProject" and "demoScenario" have to exist in Jtl Reporter beforehand otherwise it will return an error.
+
+
+:::note
+Taurus does not expose [all the data](http://localhost:3000/docs/integrations/introduction#csv-data-format) (e.g. `sentBytes`) by default. Please refer to [Taurus documentation on how to change CSV file content](https://gettaurus.org/docs/JMeter/#CSV-file-content-configuration).
+:::
