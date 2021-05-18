@@ -24,6 +24,11 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        { 
+          href: 'https://github.com/ludeknovy/jtl-reporter/discussions',
+          label: 'Help',
+          position: "left"
+        },
         {
           href: 'https://github.com/ludeknovy/jtl-reporter',
           label: 'GitHub',
