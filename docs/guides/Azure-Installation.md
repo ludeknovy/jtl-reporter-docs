@@ -32,7 +32,7 @@ you need to create the following azure resources before u begin:
 7. Connect to Azure using PowerShell and run DeployJTLReport.ps1
 8. After script execution you can see 3 container instances in your Azure resource group (JtlReporter, postgres and Migration).
 9. Post success you can delete the Migration container. 
-9. You can access JWT report  using the IP of JtlReporter container instance.
+9. You can access JTL Reporter using the IP of JtlReporter container instance.
     ```IP
         http://<JtlReporter-ContainerIP>:80
     ```
