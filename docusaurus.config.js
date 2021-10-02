@@ -24,7 +24,8 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        { 
+        {to: `pricing`, label: 'Pricing', position: 'left'},
+        {
           href: 'https://github.com/ludeknovy/jtl-reporter/discussions',
           label: 'Help',
           position: "left"
@@ -102,7 +103,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }, 
+      },
     ],
   ],
 
