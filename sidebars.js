@@ -27,6 +27,8 @@ module.exports = {
         'guides/manual-data-upload',
         'guides/api-data-upload',
         'guides/large-file',
+        'guides/aws-ecs-installation',
+        'guides/Azure-Installation'
       ],
     },
   ],
