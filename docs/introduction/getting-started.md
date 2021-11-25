@@ -8,6 +8,10 @@ slug: /
 * docker
 * docker-compose
 
+:::note
+On Windows platform it is highly recommended to use [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install) and enable `Use the WSL 2 based engine` in docker settings.
+:::
+
 ## Step 1: Clone repository
 
 If you haven't already, clone JtlReporter repository:
