@@ -10,6 +10,7 @@ settings:
     BASE_URL: yourBaseUrl.com
     SCENARIO: demoScenario
     PROJECT: demoProject
+  artifacts-dir: logs/%Y-%m-%d_%H-%M-%S.%f
 execution:
   concurrency: 50
   ramp-up: 3m
