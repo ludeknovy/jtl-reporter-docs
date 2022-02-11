@@ -36,15 +36,13 @@ Only *kpi* and *environment* in the form data body are required.
 
 ## Curl example
 ```
-curl 'http://<IP_ADDRESS>:5000/api/projects/<project_name>/scenarios/<scenario_name>/items' \
-  -H 'Connection: keep-alive' \
-  -H 'Accept: application/json, text/plain, */*' \
-  -H 'x-access-token: <api_token>' \
-  -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzrlQF8HbBdDOMTyb' \
-  -H 'Referer: http://localhost:4200/' \
-  -H 'Accept-Language: cs-CZ,cs;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,nl;q=0.4,sk;q=0.3,cy;q=0.2,de;q=0.1,ro;q=0.1' \
-  --data-raw $'------WebKitFormBoundaryzrlQF8HbBdDOMTyb\r\nContent-Disposition: form-data; name="kpi"; filename="<filename.csv>"\r\nContent-Type: text/csv\r\n\r\n\r\n------WebKitFormBoundaryzrlQF8HbBdDOMTyb\r\nContent-Disposition: form-data; name="environment"\r\n\r\ntest\r\n------WebKitFormBoundaryzrlQF8HbBdDOMTyb\r\nContent-Disposition: form-data; name="note"\r\n\r\n\r\n------WebKitFormBoundaryzrlQF8HbBdDOMTyb\r\nContent-Disposition: form-data; name="hostname"\r\n\r\n\r\n------WebKitFormBoundaryzrlQF8HbBdDOMTyb\r\nContent-Disposition: form-data; name="status"\r\n\r\n10\r\n------WebKitFormBoundaryzrlQF8HbBdDOMTyb--\r\n' \
-  --compressed
+curl -X POST 'http://<ip_address>:5000/api/projects/<project_name>/scenarios/<scenario_name>/items' \
+  -H 'x-access-token: <auth_token>' \
+  -F 'kpi=@"/<path_to_file>/result.jtl"' \
+  -F 'environment="testenv"' \
+  -F 'note="testnote"' \
+  -F 'hostname="testhostname"' \
+  -F 'status="10"'
 ```
 
 ## Python example
