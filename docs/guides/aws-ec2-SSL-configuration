@@ -9,7 +9,6 @@ NB: This guide assumes an Ubuntu VM
 * [Elastic IP assigned to VM host](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) 
 * Certificate, key, CA 
 
-
 ### Preparation
 
 * Connect to your instance via SSH 
