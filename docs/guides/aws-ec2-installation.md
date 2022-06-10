@@ -53,4 +53,4 @@ Unzip, cd into it, and run docker-compose
 cd jtl-reporter-main/
 docker-compose up -d
 ```
-You jtl should be running at <publicipv4:2020>
+jtl should be running at <publicipv4:2020>
