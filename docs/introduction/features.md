@@ -41,3 +41,4 @@ Do you need to share a report with someone without the application credentials? 
 
 ## Request statistics customization
 Every column in the request statistics table in a report detail can be customized - by default it displays all the metrics - but you can set it up to only display desired metrics.
+
