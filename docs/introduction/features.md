@@ -30,7 +30,7 @@ JtlReport will perform some performance analysis automatically for you. It aims 
 
 Set up a notification for an external service to be informed on a newly processed performance report.
 
-*Currently only MS Teams is supported.*
+*Currently only MS Teams, GChat and Slack are supported.*
 
 ## Create custom label chart
 
@@ -38,3 +38,6 @@ JtlReport provides you with a couple of ready-made charts, but you can create yo
 
 ## Anonymous report sharing
 Do you need to share a report with someone without the application credentials? No problem, we got you covered - you can create a special link to share the performance report with anyone without the need of having an account. And no worries, you can always revoke the link. No more to sending HTML reports via emails ;)
+
+## Request statistics customization
+Every column in the request statistics table in a report detail can be customized - by default it displays all the metrics - but you can set it up to only display desired metrics.
