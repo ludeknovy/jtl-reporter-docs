@@ -3,6 +3,7 @@ title: Performance Test Report
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
+tags: ["performance", "testing", "report", "JMeter", "Locust.io"]
 ---
 
 
@@ -25,4 +26,6 @@ Another important aspect of a performance testing report is the presentation of 
 
 But it also gives you the possibility to create custom charts where you can combine all the available metrics as wanted to find the desired correlation. This custom chart is saved per user session and loaded when report is opened.
 
-In conclusion, a performance testing report is a valuable document that provides insights on the performance of a system or application under various conditions. It can help identify issues and bottlenecks, provide recommendations for improvement, and serve as a baseline for future performance testing.
+Performance testing report is a valuable document that provides insights on the performance of a system or application under various conditions. It can help identify issues and bottlenecks, provide recommendations for improvement, and serve as a baseline for future performance testing.
+
+Do you want to get more from your JMeter or Locust.io performance test? [Get started](/docs/) with JtlReporter.
