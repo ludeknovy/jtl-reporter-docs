@@ -74,10 +74,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} JtlReporter. Built with Docusaurus.`,
     },
-    gtag: {
-      trackingID: 'G-RXBYHFLSTS',
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     sitemap: {
       changefreq: 'weekly',
       priority: 0.5,
@@ -102,6 +98,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-RXBYHFLSTS',
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       },
     ],
