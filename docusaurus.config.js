@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'JtlReporter',
-  tagline: 'Getting more from your performance reports',
+  tagline: 'Getting more from your performance test reports',
   url: 'https://jtlreporter.site',
   baseUrl: '/',
   onBrokenLinks: 'throw',
