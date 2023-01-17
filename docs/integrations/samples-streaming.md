@@ -7,7 +7,7 @@ title: Continuous data streaming
 * Existing project and scenario
 
 ## 1. Get JWT token from the backend service
-At first you need to log in with API token.
+At first, you need to log in with API token.
 
 ```
 method=POST
@@ -17,7 +17,7 @@ body={
 }
 ```
 
-This request will return you a JWT token you will need in subsequent steps.
+This request will return you a JWT token you will need in step 3.
 
 ## 2. Start a new test run
 To start a new test run you need to send a request
