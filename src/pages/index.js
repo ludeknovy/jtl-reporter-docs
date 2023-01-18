@@ -82,7 +82,7 @@ export default function Home() {
   return (
     <Layout
       title={`Getting more from your performance test reports | ${siteConfig.title}`}
-      description="Online reporting application to generate performance test reports from JMeter (Taurus), Locust and other tools by either uploading JTL file or streaming data from the test run continuously.">
+      description="JtlReporter is an online application that allows users to generate beautiful, customizable and easy to understand performance reports from JMeter(Taurus), Locust, and other tools.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
