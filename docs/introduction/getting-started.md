@@ -40,11 +40,6 @@ Now open the application in your browser:
 http://IP_ADDRESS:2020
 ```
 
-To log in use the default credentials:
-
-```
-username: admin
-password: 2Txnf5prDknTFYTVEXjj
-```
+Once the application is up, you will be redirected to the init page, where you will create the credentials.
 
 Now refer to the [Integration](/docs/integrations/introduction) section on how to get some data in.
