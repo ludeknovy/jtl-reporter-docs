@@ -3,7 +3,7 @@ title: Performance Test Report
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
-tags: ["performance", "testing", "report", "JMeter", "Locust.io"]
+tags: ["performance testing", "report", "JMeter", "Locust.io"]
 ---
 
 
