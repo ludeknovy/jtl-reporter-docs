@@ -1,5 +1,5 @@
 ---
-title: Load Testing using Taurus
+title: Load Testing Using Taurus
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
@@ -78,4 +78,4 @@ Thanks to Taurus modularity, you have several reporting options at your disposal
 3. Final Stats Reporter - this rather simple reporter outputs a few basic metrics in the console log after test execution, such as number of requests and failures, various percentiles or latency.
 
 
-Optionally, you can [integrate Taurus with JtlReporter](/docs/integrations/taurus). With JtlReporter, you can quickly and easily create comprehensive performance reports for your system with metrics, such as requests per second, various percentiles, error rate, and much more. Additionally, you can compare test runs side-by-side, create custom charts with any metrics available, and set up notifications for external services to be informed when a report is processed [and more](/docs/introduction/features).
+Alternatively, you can [integrate Taurus with JtlReporter](/docs/integrations/taurus). With JtlReporter, you can quickly and easily create comprehensive performance reports for your system with metrics, such as requests per second, various percentiles, error rate, and much more. Additionally, you can compare test runs side-by-side, create custom charts with any metrics available, and set up notifications for external services to be informed when a report is processed [and more](/docs/introduction/features).
