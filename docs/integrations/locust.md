@@ -29,7 +29,7 @@ def on_locust_init(environment, **_kwargs):
                 backend_url="http://IP_ADDRESS")
 ```
 
-[Generate api token](docs/guides/administration/api-token) in the application and set it as `JTL_API_TOKEN` env variable.
+[Generate api token](../guides/administration/api-token) in the application and set it as `JTL_API_TOKEN` env variable.
 
 After the test finishes you will find a jtl file in `logs` folder.
 
@@ -52,7 +52,7 @@ def on_locust_init(environment, **_kwargs):
                 backend_url="http://IP_ADDRESS")
 ```
 
-[Generate api token](docs/guides/administration/api-token) in the application and set it as `JTL_API_TOKEN` env variable.
+[Generate api token](../guides/administration/api-token) in the application and set it as `JTL_API_TOKEN` env variable.
 
 Once you run your test, the plugin will start uploading results to [jtl listener service](https://github.com/ludeknovy/jtl-reporter-listener-service).
 
