@@ -26,7 +26,9 @@ module.exports = {
                 {
                     type: 'category',
                     label: 'Administration',
-                    items: ['guides/administration/api-token', 'guides/manual-data-upload', 'guides/api-data-upload'],
+                    items: ['guides/administration/api-token', 'guides/manual-data-upload', 'guides/api-data-upload',
+                        'guides/administration/notification', 'guides/administration/anonymous_sharing',
+                        'guides/administration/request_stats_configuration',],
                 },
                 {
                     type: 'category',

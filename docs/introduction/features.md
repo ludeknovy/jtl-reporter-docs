@@ -14,7 +14,7 @@ If you want to compare HTML reports, you need to open them side by side and look
 
 ## Performance regression alerts
 
-If you run your performance tests regularly as a part of your delivery pipeline, you might set up performance thresholds for response time, error rate, and throughput. With each new report processing, it checks the long-term averages for the same environment. In case the performance did degrade above set up thresholds, you will get an alert in the report detail.
+If you run your performance tests regularly as a part of your delivery pipeline, you might set up performance thresholds for response time, error rate, and throughput. With each new report processing, it checks the values against a baseline report. In case the performance did degrade above set up thresholds, you will get an alert in the report detail.
 
 ## Performance insights
 
@@ -32,6 +32,8 @@ Set up a notification for an external service to be informed on a newly processe
 
 *Currently only MS Teams, GChat and Slack are supported.*
 
+See how to set up a notification [here](/guides/administration/notification.md).
+
 ## Create custom label chart
 
 JtlReport provides you with a couple of ready-made charts, but you can create your custom chart with any metrics available on it. This way can explore and find even more correlations. The chart gets automatically saved, and the next time you open the performance report, it preloads the last saved state.
@@ -39,6 +41,9 @@ JtlReport provides you with a couple of ready-made charts, but you can create yo
 ## Anonymous report sharing
 Do you need to share a report with someone without the application credentials? No problem, we got you covered - you can create a special link to share the performance report with anyone without the need of having an account. And no worries, you can always revoke the link. No more to sending HTML reports via emails ;)
 
+See how to set up a anonymous report sharing [here](/docs/guides/administration/anonymous_sharing).
+
 ## Request statistics customization
 Every column in the request statistics table in a report detail can be customized - by default it displays all the metrics - but you can set it up to only display desired metrics.
 
+See how to customize request statistics metrics [here](/docs/guides/administration/request_stats_configuration).
