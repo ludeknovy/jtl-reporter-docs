@@ -8,7 +8,7 @@ This guide assumes an Ubuntu VM
 
 ### Prerequisites
 * AWS EC2 instance up and running with JTL Docker images at publicipv4:2020
-  ([See guide here](https://jtlreporter.site/docs/guides/aws-ec2-installation))
+  ([See guide here](aws-ec2-installation.md))
 * [Elastic IP assigned to VM host](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)
 * Certificate, key, CA
 
