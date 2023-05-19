@@ -37,5 +37,5 @@ Please note that "demoProject" and "demoScenario" have to exist in Jtl Reporter 
 
 
 :::note
-Taurus does not expose [all the data](http://localhost:3000/docs/integrations/introduction#csv-data-format) (e.g. `sentBytes`) by default. Please refer to [Taurus documentation on how to change CSV file content](https://gettaurus.org/docs/JMeter/#CSV-file-content-configuration).
+Taurus does not expose [all the data](/docs/integrations/introduction#csv-data-format) (e.g. `sentBytes`) by default. Please refer to [Taurus documentation on how to change CSV file content](https://gettaurus.org/docs/JMeter/#CSV-file-content-configuration).
 :::
