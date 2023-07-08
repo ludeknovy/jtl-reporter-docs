@@ -117,6 +117,6 @@ Overall, Locust is an excellent choice for performance testing. It is easy to in
 
 Are you looking for an easy way to measure the performance of your application and create detailed [performance test reports](/blog/2023-01-08-performance-test-report.md)? Look no further than JtlReporter!
 
-With JtlReporter, you can quickly and easily create comprehensive [performance reports](/blog/2023-01-08-performance-test-report.md) for your system with metrics, such as requests per second, various percentiles, error rate, and much more. Additionally, you can compare test runs side-by-side, create custom charts with any metrics available, and set up notifications for external services to be informed when a report is processed.
+With JtlReporter, you can quickly and easily create comprehensive [performance test reports](/blog/2023-01-08-performance-test-report.md) for your system with metrics, such as requests per second, various percentiles, error rate, and much more. Additionally, you can compare test runs side-by-side, create custom charts with any metrics available, and set up notifications for external services to be informed when a report is processed.
 
-JtlReporter is the perfect way to measure and analyze performance when load testing your application using Locust.io. [Try JtlReporter](/docs/) today and get detailed performance reports with ease!
+JtlReporter is the perfect way to measure and analyze performance when load testing your application using Locust.io. [Try JtlReporter](/docs/) today and get detailed performance test reports with ease!

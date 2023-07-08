@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Detailed performance report',
+    title: 'Detailed performance test report',
     description: (
       <>
         JtlReport will provide you with metrics for each label such as: requests per seconds (RPS), various percentiles, error rate, network data transferred (Mbps), and more.
@@ -35,7 +35,7 @@ const features = [
     title: 'Share reports with anybody',
     description: (
       <>
-        Create a special link to share performance report with anyone without the need of having an account. No worries, you can always revoke the link.
+        Create a special link to share performance test report with anyone without the need of having an account. No worries, you can always revoke the link.
       </>
     ),
   },
@@ -51,7 +51,7 @@ const features = [
     title: 'Notification',
     description: (
       <>
-        Set up a notification for an external service to be informed on a newly processed performance report.
+        Set up a notification for an external service to be informed on a newly processed performance test report.
 
         <p className={styles.more}>
           <a href="/docs/introduction/features">And more ...</a>

@@ -2,7 +2,7 @@
 title: Features
 ---
 
-## Detailed performance report
+## Detailed performance test report
 
 JtlReport will provide you with metrics for each label and superimposed metrics such as requests per seconds (RPS), various percentiles, error rate, network data transferred (Mbps), latency, connection time, the total number of users, and more.
 
@@ -28,7 +28,7 @@ JtlReport will perform some performance analysis automatically for you. It aims 
 
 ## Notification
 
-Set up a notification for an external service to be informed on a newly processed performance report.
+Set up a notification for an external service to be informed on a newly processed performance test report.
 
 *Currently only MS Teams, GChat and Slack are supported.*
 
@@ -36,10 +36,10 @@ See how to set up a notification [here](/guides/administration/notification.md).
 
 ## Create custom label chart
 
-JtlReport provides you with a couple of ready-made charts, but you can create your custom chart with any metrics available on it. This way can explore and find even more correlations. The chart gets automatically saved, and the next time you open the performance report, it preloads the last saved state.
+JtlReport provides you with a couple of ready-made charts, but you can create your custom chart with any metrics available on it. This way can explore and find even more correlations. The chart gets automatically saved, and the next time you open the performance test report, it preloads the last saved state.
 
 ## Anonymous report sharing
-Do you need to share a report with someone without the application credentials? No problem, we got you covered - you can create a special link to share the performance report with anyone without the need of having an account. And no worries, you can always revoke the link. No more to sending HTML reports via emails ;)
+Do you need to share a report with someone without the application credentials? No problem, we got you covered - you can create a special link to share the performance test report with anyone without the need of having an account. And no worries, you can always revoke the link. No more to sending HTML reports via emails ;)
 
 See how to set up a anonymous report sharing [here](/docs/guides/administration/anonymous_sharing).
 
