@@ -10,8 +10,8 @@ Performance testing metrics are measurements that are used to evaluate the perfo
 
 There are various performance testing metrics that can be used, depending on the specific goals and objectives of the test. Some common performance testing metrics include:
 
-1. **Response time**: This is the amount of time it takes for a request to be processed and for a response to be returned. A high response time can indicate that the system is overloaded or that there are bottlenecks in the system. For performance analysis it is very useful to use percentiles.
-The most common percentiles are p90, p95 and p99.
+1. **Response time**: This is the amount of time it takes for a request to be processed and for a response to be returned. A high response time can indicate that the system is overloaded or that there are bottlenecks in the system. For performance analysis it is very useful to use [percentiles](/blog/2023/07/07/percentiles).
+The most common [percentiles](/blog/2023/07/07/percentiles) are p90, p95 and p99.
 2. **Throughput**: This is the number of requests that a system can handle per unit of time. A high throughput is desirable, as it indicates that the system can handle a large volume of traffic. 
 3. **Error rate**: This is the percentage of requests that result in an error. A high error rate can indicate that the system is not functioning properly and needs to be optimized. 
 4. **Resource utilization**: This is the percentage of a system's resources (such as CPU, memory, and network bandwidth) that are being used during the test. High resource utilization can indicate that the system is reaching its limits and may need to be scaled.
