@@ -16,7 +16,7 @@ There are various types of performance tests, including load testing, stress tes
 
 A performance testing report should include a summary of the test objectives, the testing environment, and the test results. It should also include any issues or bottlenecks that were identified during the testing process and provide recommendations for improvement.
 
-One key aspect of a performance testing report is the use of performance metrics. These metrics can help identify areas of the system that may need improvement and provide a baseline for future performance testing. Common performance metrics include response time (90, 95 and 99 [percentiles](/blog/2023/07/07/percentiles), average, min and max), throughput, error rate, connection time, networks stats. All of these metrics are provided in JtlReporter. The more, you can adjust the displayed metrics as wanted - by default the application shows all the metrics in the table, but if you feel it's too overwhelming you can easily limit it.
+One key aspect of a performance testing report is the use of performance metrics. These metrics can help identify areas of the system that may need improvement and provide a baseline for future performance testing. Common performance metrics include response time (90, 95 and 99 [percentiles](/blog/2023/07/07/performance-testing-metric-percentiles), average, min and max), throughput, error rate, connection time, networks stats. All of these metrics are provided in JtlReporter. The more, you can adjust the displayed metrics as wanted - by default the application shows all the metrics in the table, but if you feel it's too overwhelming you can easily limit it.
 
 ![Request stats](./assets/request_stats_table.png)
 
