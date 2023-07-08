@@ -7,7 +7,7 @@ tags: ["load testing","performance testing", "metrics"]
 ---
 
 As a performance tester, one of the most important tasks is to correctly analyze the performance testing results.
-Although it might look like an easy task, the opposite is true here. When looking at the performance report metrics and charts, there are many hidden traps.
+Although it might look like an easy task, the opposite is true here. When looking at the performance test report metrics and charts, there are many hidden traps.
 The biggest one is, the data you are looking at are aggregated. The problem with aggregated metrics is that
 they hide information from you (and averages are among the worst here), like very small spikes in response times.
 But those spikes still pose a performance bottleneck, that needs to be solved.

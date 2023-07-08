@@ -5,7 +5,7 @@ author_url: https://ludeknovy.tech
 hide_table_of_contents: false
 ---
 
-Recently I spotted that some people are confused about the requests per second metric and its correlation to the virtual users. Namely, I was asked how is it possible that 10 VU are generating 15.4 RPS, where is the decimal coming from? I did not realize it at first, but when I started playing with performance testing tools a few years ago I was puzzling it over as well. So I would like to use this blog post as an opportunity to shed a bit of light on it and help newcomers in the performance testing domain to properly analyze test performance report. Let's dive into it.
+Recently I spotted that some people are confused about the requests per second metric and its correlation to the virtual users. Namely, I was asked how is it possible that 10 VU are generating 15.4 RPS, where is the decimal coming from? I did not realize it at first, but when I started playing with performance testing tools a few years ago I was puzzling it over as well. So I would like to use this blog post as an opportunity to shed a bit of light on it and help newcomers in the performance testing domain to properly analyze test performance test report. Let's dive into it.
 <!--truncate-->
 
 
