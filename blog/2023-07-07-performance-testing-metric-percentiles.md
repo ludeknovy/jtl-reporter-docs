@@ -3,6 +3,7 @@ title: Performance Testing Metric - Percentile
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
+description: Detailed insight into percentiles and how they contrast with averages in the context of performance testing.
 tags: ["load testing","performance testing", "metrics", "percentile"]
 ---
 

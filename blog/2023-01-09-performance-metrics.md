@@ -3,10 +3,12 @@ title: Performance Testing Metrics
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
+description: Learn about various performance testing metrics and how they are useful while analyzing the performance test report.
 tags: ["performance","metrics", "JMeter", "Locust.io"]
 ---
 
-Performance testing metrics are measurements that are used to evaluate the performance of a system or application under a given workload. These metrics help identify any issues or bottlenecks in the system and provide insights on how to improve its performance.
+Performance testing metrics are measurements that are used to evaluate the performance of a system or application under a given workload. 
+These metrics help identify any issues or bottlenecks in the system and provide insights on how to improve its performance.
 
 There are various performance testing metrics that can be used, depending on the specific goals and objectives of the test. Some common performance testing metrics include:
 

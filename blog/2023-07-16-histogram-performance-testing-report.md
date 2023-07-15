@@ -11,7 +11,7 @@ In performance testing, it is integral to have detailed, accurate methods for tr
 A useful visual tool that helps in this regard is the histogram. Using histograms in performance testing reports can aid in the breakdown of data distribution,
 revealing the shape and spreading of performance test data, thus enhancing understanding of test results. 
 
-# Relationship Between Histograms and Standard Deviation in Performance Testing
+## Relationship Between Histograms and Standard Deviation in Performance Testing
 A histogram complements other measures of data distribution, such as [standard deviation](/blog/2023/07/14/performance-testing-metric-standard-deviation). 
 While [standard deviation](/blog/2023/07/14/performance-testing-metric-standard-deviation) elucidates the degree of data dispersion from the mean,
 histograms visually portray data grouping in intervals, clearly highlighting the frequency of data occurring within these intervals.
@@ -21,7 +21,7 @@ The histogram uses its visual prowess to depict and highlight the position and r
 while standard deviation uses its mathematical sharpness to assess the dispersion and deviation of the data. 
 Collaboratively, they provide us nuanced way for understanding of the distribution of collected data samples.
 
-# Understanding Normal Distribution in Histograms 
+## Understanding Normal Distribution in Histograms 
 A critical concept represented by histograms in performance testing is normal distribution, which often emerges as a likely outcome.
 Normal distribution, depicted as a bell curve, signifies that most data points cluster near the mean,
 with the frequency gradually declining as they diverge from the center. This renders the normal distribution pattern symmetric. 
@@ -33,7 +33,7 @@ Hence, understanding normal distribution in the performance testing context is a
 It is a visual cue in the histogram that carries great weight. Moreover, it aids in forming informed expectations about system behavior.
 So, as testers, our eye on the histogram should always look out for the bell curve of normal distribution.
 
-# Utility and Relevance of Histograms in Performance Testing Reports
+## Utility and Relevance of Histograms in Performance Testing Reports
 Given their ability to elucidate data patterns visually, histograms hold high utility in performance tests reports. 
 They furnish testers with an easy-to-understand, intuitive breakdown of data distribution over a range of response times.
 
@@ -60,7 +60,7 @@ and, above all, present complicated data in an accessible, user-friendly format,
 histograms hold high relevance in the world of performance testing reports.
 
 
-# Closing Thoughts
+## Closing Thoughts
 In sum, histograms play a pivotal role in the domain of performance test reports. As a visualization tool, 
 they work in tandem with measures like standard deviation to offer a comprehensive perspective on data distribution. 
 By illustrating patterns such as normal distribution and highlighting outliers, 

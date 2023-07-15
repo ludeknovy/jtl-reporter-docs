@@ -3,6 +3,7 @@ title: Load Testing Using Locust.io
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
+description: Quick example how to start load testing with Locust.io and generate better performance testing reports for it.
 tags: ["load testing","performance testing", "Locust.io"]
 ---
 
