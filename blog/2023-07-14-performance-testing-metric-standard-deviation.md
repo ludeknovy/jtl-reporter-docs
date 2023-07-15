@@ -3,6 +3,7 @@ title: Performance Testing Metric - Standard Deviation
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
+description: Grasp a standard deviation metric in performance testing and how it is helpful for performance testing report analysis.
 tags: ["load testing","performance testing", "metrics", "standard deviation"]
 ---
 

@@ -3,6 +3,7 @@ title: Scatter Chart in Performance Testing
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
+description: Understand the scatter chart in performance testing reports how it can help you to understand the data better.
 tags: ["load testing","performance testing", "metrics"]
 ---
 

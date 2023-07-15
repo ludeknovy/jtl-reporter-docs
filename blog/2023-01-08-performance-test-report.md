@@ -2,6 +2,7 @@
 title: Performance Test Report
 author: Luděk Nový
 author_url: https://ludeknovy.tech
+description: Find out what performance testing report should contain and how it can help you to evaluate performance of your application.
 hide_table_of_contents: false
 tags: ["performance testing", "report", "JMeter", "Locust.io"]
 ---
