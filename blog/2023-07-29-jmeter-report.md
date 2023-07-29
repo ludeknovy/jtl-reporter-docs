@@ -45,7 +45,7 @@ Some of the essential metrics you will come across in a JMeter Dashboard report 
 1. Error %: The percentage of requests with errors.
 2. Throughput: Number of requests per unit of time that your application can handle.
 3. Min / Max time: The least / maximum time taken to handle the requests.
-4. 90 % line: 90 percent of the response times are below this value.
+4. [90 % line](/blog/2023/07/07/performance-testing-metric-percentiles): 90 percent of the response times are below this value.
 
 ## Interpreting the Report
 Interpreting the Dashboard Report involves looking at these metrics and evaluating whether they meet your application's performance requirements.
