@@ -1,9 +1,10 @@
 ---
-title: How to generate and understand JMeter Dashboard Report
+title: How to generate JMeter Dashboard Report
 author: Luděk Nový
 author_url: https://ludeknovy.tech
 hide_table_of_contents: false
 tags: ["load testing","performance testing", "report", "jmeter"]
+slug: how-to-generate-jmeter-dashboard-report
 ---
 
 JMeter, also known as Apache JMeter, is a powerful open-source software that you can use to perform load testing, functional testing, and performance measurements on your application or website. It helps you understand how your application behaves under different levels of load and can reveal bottlenecks or issues in your system that could impact user experience. 
