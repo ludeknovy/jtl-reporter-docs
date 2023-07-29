@@ -16,7 +16,7 @@ To generate a JMeter Dashboard Report, certain software prerequisites must be me
 
 ## Detailed Step-by-step Guide on How to Generate JMeter Dashboard Report
 ### Setting up the Environment
-First, confirm that JMeter and JDK are installed correctly. You can do this by opening a command prompt (or terminal in Linux/Mac) and typing "jmeter -v" and "java -version." These commands should return the JMeter and JDK versions installed on your PC, respectively.    Next, open JMeter application. Choose your preferred location to store the output. It should be a place where JMeter can generate results and graphs.      Set up your test plan. A test plan specifies what to test and how to run the test. You can add a thread group to the test plan and configure the number of users, ramp-up period, and loop count, among other parameters.
+First, confirm that JMeter and JDK are installed correctly. You can do this by opening a command prompt (or terminal in Linux/Mac) and typing `jmeter -v` and `java -version`. These commands should return the JMeter and JDK versions installed on your PC, respectively. Next, open JMeter application. Choose your preferred location to store the output. It should be a place where JMeter can generate results and graphs. Set up your test plan. A test plan specifies what to test and how to run the test. You can add a thread group to the test plan and configure the number of users, ramp-up period, and loop count, among other parameters.
 
 ### Planning and Executing the Test
 Add the necessary samplers to the thread group. Samplers tell JMeter to send requests to a server and wait for a response. 
