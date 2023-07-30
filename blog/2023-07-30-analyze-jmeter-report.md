@@ -17,7 +17,7 @@ you can find out how to generate the [JMeter Dashboard Report](/blog/how-to-gene
 
 ## The Importance of the Statistics in JMeter Report
 The Statistics table in JMeter Dashboard Report is an integral part of performance testing analysis due to its comprehensive view of test results. 
-It presents summarized information, including the average, median, and deviation of response times, error percentage,
+It presents summarized information, including the average, median, and percentiles of response times, error percentage,
 throughput, and more, all of which help identify bottlenecks in application performance. 
 Understanding the Statistics Report is crucial as it provides valuable insights into application behavior under different load conditions; 
 thus, it aids in determining scalability, reliability, and capacity planning. It forms the basis to uncover potential performance issues,
