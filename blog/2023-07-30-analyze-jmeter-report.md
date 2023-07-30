@@ -29,7 +29,7 @@ optimize system performance, and ensure a seamless user experience.
 The detailed analysis of the Aggregate Report in JMeter involves examining various columns that provide information about the performance of the application. 
 Key metrics include:
 
-* Label Name: name of sampler.
+* Label Name: name of a sampler.
 * Number of Samples: the total number of requests made.
 * Average, Min, Max, Median, [90th, 95th and 95th percentile](/blog/2023/07/07/performance-testing-metric-percentiles): These indicate the various response times, respectively, providing a clear perspective on overall application performance.
 * Throughput: Number of requests per unit of time that your application can handle. 
