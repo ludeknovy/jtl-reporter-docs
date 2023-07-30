@@ -12,6 +12,8 @@ Most of the metrics are presented to you in form of a chart, this way you can sp
 
 If you want to compare HTML reports, you need to open them side by side and look for the differences and correlations on your own. With JtlReporter that comparison is only four clicks away. And it does not stop there. You can even drill down in response time and throughput trends for each endpoint.
 
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/PGnfACy8m6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Performance regression alerts
 
 If you run your performance tests regularly as a part of your delivery pipeline, you might set up performance thresholds for response time, error rate, and throughput. With each new report processing, it checks the values against a baseline report. In case the performance did degrade above set up thresholds, you will get an alert in the report detail.
