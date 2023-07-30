@@ -31,7 +31,7 @@ Key metrics include:
 
 * Label Name: name of sampler.
 * Number of Samples: the total number of requests made.
-* Average, Min, Max, Median, 90th, 95th and 95th percentile: These indicate the various response times, respectively, providing a clear perspective on overall application performance.
+* Average, Min, Max, Median, [90th, 95th and 95th percentile](/blog/2023/07/07/performance-testing-metric-percentiles): These indicate the various response times, respectively, providing a clear perspective on overall application performance.
 * Throughput: Number of requests per unit of time that your application can handle. 
 * Number of failed requests and Error %: This presents the total number of failed requests and their rate as compared to the total requests, signaling issues if the value is high.
 * Network - Received and Sent: The amount of data being transferred in both directions, represented as KB/sec.
