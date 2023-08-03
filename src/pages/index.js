@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import USED_BY from "../data/USED_BY";
 
 const features = [
   {
@@ -114,7 +115,34 @@ export default function Home() {
         <div className="container">
           <img src="img/showcase.gif" alt="title" />
         </div>
+        <div className="container">
+          <sdiv></sdiv>
+        </div>
       </main>
+      <QuotesSection />
+
     </Layout>
+  );
+}
+
+
+function QuotesSection() {
+  return (
+      <div className="trusted-by">
+        <div className="container">
+            <h2 className>Who is using JtlReporter?</h2>
+          <div className="row">
+            {USED_BY.map((company) => (
+                <div className="col" key={company.name}>
+                  <div className="avatar avatar--vertical margin-bottom--sm">
+                      <img src={company.logo} width={100}/>
+
+                  </div>
+
+                </div>
+            ))}
+          </div>
+        </div>
+      </div>
   );
 }
