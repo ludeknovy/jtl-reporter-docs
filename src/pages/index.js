@@ -113,8 +113,7 @@ export default function Home() {
           </section>
         )}
         <div className="container">
-          <img src="img/showcase.gif" alt="title" />
-        </div>
+            <iframe width="100%" height="560" src="https://www.youtube.com/embed/sG4RT68IvMs" title="JtlReporter Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>        </div>
         <div className="container">
           <sdiv></sdiv>
         </div>
