@@ -43,7 +43,7 @@ Now you can start uploading the samples from your performance test
 method=POST
 url=http://IP_ADDRESS:6000/api/v1/test-run/log-samples
 body={
-    "itemId": "<dataId>" // the one from the previous step
+    "itemId": "<itemId>" // the one from the previous step
     "samples: [{
             "timeStamp": 1618578081000,
             "elapsed": 13,
