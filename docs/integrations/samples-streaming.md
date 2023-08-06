@@ -33,7 +33,7 @@ headers={
 }
 ```
 
-This request will return you an `itemId` and `dataId`
+This request will return you an `itemId`
 
 
 ## 3. Upload your test samples
@@ -43,7 +43,7 @@ Now you can start uploading the samples from your performance test
 method=POST
 url=http://IP_ADDRESS:6000/api/v1/test-run/log-samples
 body={
-    "dataId": "<dataId>" // the one from the previous step
+    "itemId": "<dataId>" // the one from the previous step
     "samples: [{
             "timeStamp": 1618578081000,
             "elapsed": 13,
