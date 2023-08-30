@@ -12,7 +12,7 @@ You have two options here - [generate CSV file and upload it to the application]
 Please note that the below-mentioned listeners currenty support only distributed mode.
 :::
 
-### Generating and uploading JTL file
+## Generating and uploading JTL file
 Download [jtl_listener.py](https://github.com/ludeknovy/jtl-reporter/blob/master/scripts/jtl_listener.py) into your locust project folder.
 
 Register the listener in your locust test by placing event listener at the very end of the file:
@@ -33,7 +33,7 @@ def on_locust_init(environment, **_kwargs):
 
 After the test finishes you will find a jtl file in `logs` folder.
 
-### Continuous results uploading
+## Continuous results uploading
 
 Download [jtl_listener_service.py](https://github.com/ludeknovy/jtl-reporter/blob/master/scripts/jtl_listener_service.py) into your locust project folder.
 
