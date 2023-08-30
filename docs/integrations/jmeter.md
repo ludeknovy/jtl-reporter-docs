@@ -2,7 +2,12 @@
 title: JMeter
 ---
 
-## Generating and uploading JTL file
+To integrate JMeter with JtlReport you  have two options:
+1. Generate CSV file and upload it to the application.
+2. Leverage the jtl listener service and upload the results continuously during test execution using JtlReporter JMeter Backend Listener Plugin.
+
+
+## 1. Generating and uploading JTL file
 
 :::warning
 Only a comma `,` is supported as a delimiter.
@@ -17,7 +22,7 @@ If you run your tests in **distributed mode** you need to provide *Hostname* in 
 Once you have `.jtl` (CSV) output ready, upload it to the application either via **[UI](/docs/guides/manual-data-upload)** or **[REST API](/docs/guides/api-data-upload)**.
 
 
-## Continuous results uploading
+## 2. Continuous results uploading
  
 If you would like to take the advantage of continuous data results uploading, you need to install [JtlReporter JMeter Backend Listener Plugin](https://github.com/ludeknovy/jtl-reporter-jmeter-backend-listener/packages/1917620).
 and make sure that the JtlReporter Listener Service is running. 
