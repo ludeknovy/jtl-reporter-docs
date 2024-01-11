@@ -11,5 +11,5 @@ docker exec -t <postgres_container_name> pg_dumpall -c -U postgres > dump_`date 
 ## Restore database
 The database can be restored by running the following command
 ```shell
-docker exec -i <postgres_container_name> psql -U postgres -d jtl-report < <backup_file.sql>
+docker exec -i <postgres_container_name> psql -U postgres -d jtl_report < <backup_file.sql>
 ```
