@@ -37,7 +37,7 @@ Congratulations! You've successfully deployed JtlReporter
 Now open the application in your browser:
 
 ```
-http://IP_ADDRESS:2020
+http://localhost:2020
 ```
 
 Once the application is up, you will be redirected to the init page, where you will create the credentials.
