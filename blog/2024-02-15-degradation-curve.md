@@ -25,7 +25,7 @@ Degradation curves serve multiple purposes in performance testing, including:
 ## Analyzing Degradation Curves
 ### Components of a Degradation Curve
 1. The Single-User Region: This part of the curve represents the response time when only a single user is accessing the system. It provides a baseline for optimal performance.
-2. The Performance Plateau: This region indicates the range of user load under which the application performs optimally without significant degradation.
+2. The Performance Plateau: This region indicates the range of a user load under which the application performs optimally without significant degradation.
 3. The Stress Region: Here, the application begins to degrade gracefully under increasing load, marking the onset of performance issues.
 4. The Knee in Performance: This critical point signifies where performance degradation becomes severe, indicating the maximum load the application can handle before experiencing unacceptable performance.
 
@@ -46,7 +46,7 @@ Step-by-Step Process for Creating a Degradation Curve
 Understanding and analyzing degradation curves becomes even more critical when dealing with complex performance-testing scenarios. These scenarios might involve varying user behaviors, concurrent access patterns, or the introduction of new application features that could potentially alter performance dynamics.
 
 ### Modeling User Behavior and Workload Distribution
-Creating sophisticated models that simulate real-world user interactions with the application is a key. By incorporating these models into performance testing, teams can generate more accurate degradation curves that reflect a wide range of user behaviors and workload distributions. This approach enables a deeper understanding of how different user types impact application performance.
+Creating sophisticated models that simulate real-world user interactions with the application is key. By incorporating these models into performance testing, teams can generate more accurate degradation curves that reflect a wide range of user behaviors and workload distributions. This approach enables a deeper understanding of how different user types impact application performance.
 
 ### Applying Degradation Curves to Complex Scenarios
 In complex scenarios, degradation curves can illustrate how changes in user behavior or workload distribution affect application performance. For example, an increase in the number of users performing data-intensive operations might shift the performance plateau earlier in the curve, indicating a need for optimization in handling such operations.
@@ -62,6 +62,6 @@ The goal of performance tuning is often to shift the knee in the degradation cur
 Degradation curves are a powerful tool in the performance tester's arsenal, offering detailed insights into how applications behave under load.
 By understanding and applying the principles outlined in this guide, testing teams can enhance application performance, meet user expectations, and ultimately contribute to the success of their software projects.
 
-## Generation Degradation Curve With JtlReporter
-Traditionally, creating the degradation curve was done in Excel or any other similar tool. This is indeed very manual and not too scalable solution. As the test scenario outcomes had to be copied from the tests outputs from tools like JMeter, Locust, Gatling, etc. and copied
-into Excel. With every new test result the procedure must be done again. With JtlReporter you get the degradation curve for each scenario out of the box, without any manual steps needed.
+## Generate Degradation Curve With JtlReporter
+Traditionally, creating the degradation curve was done in Excel or any other similar tool. This is indeed a very manual and not too scalable solution. As the test scenario, outcomes had to be copied from the test outputs from tools like JMeter, Locust, Gatling, etc. and copied
+into Excel. With every new test result, the procedure must be done again. With JtlReporter you get the degradation curve for each scenario out of the box, without any manual steps needed.
