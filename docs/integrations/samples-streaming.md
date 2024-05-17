@@ -69,12 +69,24 @@ headers={
 :::
 
 ## 4. Stop the test run
-Once your performance test finishes you need to stop it in the application to start the samples processing in order to generate the performance report
+After your performance test finishes, you need to stop the test run within the application. This action initiates the sample processing required to generate the performance report.
 
 ```
 method=POST
 url=http://IP_ADDRESS:5000/api/projects/<project_name>/scenarios/<scenario_name>/items/<item_id>/stop-async
+body={
+    "status": "<status_value>"
+}
 headers={
     "x-access-token": "<api_token>"
 }
 ```
+
+The accepted `status` values are:
+* `0` for `Passed`
+* `1` for `Error`
+* `2` for `Terminated`
+* `3` for `Failed`
+* `10` for `Not Set`
+
+Note that the status field is optional. 
