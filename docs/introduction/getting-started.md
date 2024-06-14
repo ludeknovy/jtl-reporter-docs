@@ -28,7 +28,9 @@ After cloning the project repository `cd` into the `jtl-reporter` folder and dep
 docker-compose up -d
 ```
 
-and wait a bit for all the services to be up and migrations to finish.
+:::note
+Please, wait a bit for all the services to be up and migrations to finish. If you access the application before that, you will get an error.
+:::
 
 ## Step 3: That's it! 🎉
 
