@@ -41,7 +41,7 @@ Now you can start uploading the samples from your performance test
 
 ```
 method=POST
-url=http://IP_ADDRESS:6000/api/v1/test-run/log-samples
+url=http://IP_ADDRESS:6000/api/v4/test-run/log-samples
 body={
     "itemId": "<itemId>" // the one from the previous step
     "samples: [{
@@ -50,13 +50,22 @@ body={
             "label": "endpoint name",
             "responseCode": 200,
             "responseMessage": "ok",
+            "threadName": "thread name",
             "success": true,
             "bytes": 1233,
+            "sentBytes": 1235,
             "grpThreads": 100,
             "allThreads": 100,
-            "Latency": 3,
-            "Connect": 10,
-            "Hostname": "hostname"
+            "latency": 3,
+            "connect": 10,
+            "hostname": "hostname"
+            "failureMessage: "failure message"
+    }],
+    "monitor": [{
+            "cpu": 30,
+            "mem": 15,
+            "name": "load generator",
+            "timestamp": 1618578081000,
     }]
 },
 headers={
@@ -65,7 +74,7 @@ headers={
 ```
 
 :::note
-`api/v1/test-run/log-samples` accepts max 500 items in the array.
+Information about the required fields of the schemas can be found at [jtl-listener-service repository](https://github.com/ludeknovy/jtl-reporter-listener-service/blob/main/src/jsonSchema/saveDataBodySchema.ts).
 :::
 
 ## 4. Stop the test run
