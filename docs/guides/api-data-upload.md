@@ -21,6 +21,7 @@ formData={
     environment: "environment"
     note: "my note"
     hostname: "my hostname"
+    resourcesLink: "my personal external link"
     status: 10
 }
 ```
@@ -42,6 +43,7 @@ curl -X POST 'http://<ip_address>:5000/api/projects/<project_name>/scenarios/<sc
   -F 'environment="testenv"' \
   -F 'note="testnote"' \
   -F 'hostname="testhostname"' \
+  -F 'resourcesLink="my personal external link" \
   -F 'status="10"'
 ```
 
@@ -58,4 +60,30 @@ url = '%s:5000/api/projects/%s/scenarios/%s/items' % (
            "<http://IP_ADDRESS>", "project_name", "scenario_name")
 requests.post(url, files=files, headers={
                                  'x-access-token': "<api_token>"})
+```
+
+## Powershell example
+
+```
+$headers = @{
+    'x-access-token' = "<api_token>"
+}
+
+$url = "http://<IP_ADDRESS>:5000)
+$project = "<project_name>"
+$environment = "test environment"
+$scenario = "<scenario_name>"
+$externalLink = "my personal external link"
+$note = "my note"
+
+$uri = "$url/api/projects/$project/scenarios/$scenario/items"
+
+$form = @{
+    kpi = Get-Item -Path "result.jtl" -Force
+    environment = $environment
+    resourcesLink = $externalLink
+    note = $note
+}
+
+Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -Form $form
 ```
