@@ -2,6 +2,10 @@
 title: Installing JTL Reporter on Azure container instances 
 ---
 
+:::warning
+Please note that this manual is for an older version of the application and it won't work for the v4 or v5.
+:::
+
 ### Prerequisites
 * Azure Account 
 * Latest version of [PSQLODBC](https://www.postgresql.org/ftp/odbc/versions/msi/) to run PSQL commands.
