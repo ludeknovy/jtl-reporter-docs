@@ -2,7 +2,7 @@
 module.exports = {
   title: 'JtlReporter',
   tagline: 'Getting more from your performance test reports',
-  url: 'https://jtlreporter.site',
+  url: 'https://jtlreporter.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +24,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: `pricing`, label: 'Pricing', position: 'left'},
         {
           href: 'https://github.com/ludeknovy/jtl-reporter/discussions',
           label: 'Help',
